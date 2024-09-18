@@ -1,0 +1,22 @@
+.color-parrafo {
+    color: #c4c4c4;
+}
+
+.block-container {
+    display: flex;
+    justify-content: space-between; /* Distribuye los bloques uniformemente */
+}
+
+.block-container h5, .block-container ul {
+    margin: 0; /* Elimina márgenes entre los bloques */
+}
+
+.horizontal-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.horizontal-list li {
+    margin-bottom: 5px; /* Ajusta el espacio entre los ítems de la lista si lo necesitas */
+}
+
